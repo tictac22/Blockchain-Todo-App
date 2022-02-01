@@ -14,7 +14,7 @@ interface Props {
 const provider = new ethers.providers.Web3Provider(window.ethereum)
 const signer = provider.getSigner()
 const contract = new ethers.Contract("0x26Dd67b6782e216Bfde0D836DeAFD9a542725a4f", Todo.abi, signer);
-
+if(window.ethereum && window.ethereum.isMetaMask) window.ethereum.request({ method: 'eth_requestAccounts' });
 export const ContractContext:React.FC<Props> = ({children}) => {
     return (
         <Context.Provider value={{contract,provider}}>
