@@ -6,5 +6,5 @@ To use app you need:
 - and have some eth on wallet, you can get [here](https://faucets.chain.link/rinkeby)
 
 Technology stack <br />
-1.React, Typescript, Mui, ether.js <br />
-2.Solidity,hardhat
+  1. React, Typescript, Mui, ether.js <br />
+  2. Solidity,hardhat
