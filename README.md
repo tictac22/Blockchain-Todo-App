@@ -5,6 +5,6 @@ To use app you need:
 - to be connected to Rinkeby test network with Metamask
 - and have some eth on wallet, you can get [here](https://faucets.chain.link/rinkeby)
 
-Technology stack <br />
-  1. React, Typescript, Mui, ether.js <br />
-  2. Solidity,hardhat
+Technology stack
+  1.  React, Typescript,Webpack, Mui, ether.js
+  2.  Solidity,hardhat
